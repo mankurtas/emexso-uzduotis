@@ -1,3 +1,31 @@
 * {
   box-sizing: border-box;
 }
+header {
+  display: flex;
+  color: rgb(16, 61, 121);
+  border-bottom: 1px solid rgb(207, 207, 182);
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+header div {
+  margin-right: 1rem;
+  margin-bottom: 1rem;
+}
+i {
+  margin-right: 0.2rem;
+}
+
+nav {
+  margin-top: 1.5rem;
+  display: flex;
+  flex: row;
+  justify-content: center;
+  /* justify-content: space-between;*/
+}
+nav a {
+  text-decoration: none;
+  margin-right: 2rem;
+  color: black;
+}
